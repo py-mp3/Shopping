@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Balls4Life</title>
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<style type="text/css">
+		.sidenav{
+			height: 100%;
+			width: 0;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: #ffffff;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		}
+		.sidenav a{
+			color: #003AFF;
+			padding: 8px 8px 8px 32px;
+			font-size: 25px;
+			display: block;
+			transition: 0.3s;
+		}
+		.sidenav a:hover{
+			color: #FFFFFF;}
+		.closeBtn{
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size:12px;
+			margin-left: 50px}
+ 			.yeet{
+ 				text-decoration: none;
+ 			}
+	</style>
+</head>
+<body style="background-color: red;">
+	<div class="sidenav" id="myNav">
+	<a href="" class="closeBtn" style="text-decoration: none;" onclick="closeNav()">x</a>
+	<h1>     Sports</h1>
+	<a class="yeet" href="Sports Shop.html" target="_blank">Shop</a>
+	<a class="yeet" href="Wishlist.html" target="_blank">Wishlist</a>
+	<a class="yeet" href="login.html" target="_blank">Login</a>
+	<a class="yeet" href="Sports create acount.html" target="_blank">Create Account</a>
+</div>
+<h2></h2>
+<span style="font-size: 30px;cursor: pointer;" onclick="openNav()"><i class="fas fa-bars"></i></span> 
+	<h1 style="text-align: center; font-size: 100px">BALLS4LIFE</h1>
+
+<script type="text/javascript">
+	function openNav(){
+			document.querySelector('#myNav').style.width='192px';
+		}
+		function closeNav(){
+			document.querySelector('#myNav').script.width='0';
+		}	
+
+</script>
+</body>
+</html>
